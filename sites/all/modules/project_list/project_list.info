@@ -1,0 +1,3 @@
+name = "project_list"
+core = "7.x"
+description = "list of active projects registered by app developers"

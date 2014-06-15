@@ -1,0 +1,41 @@
+<?php
+function project_list_schema() {
+    
+	$schema = array();
+	$schema['project_list'] = array(
+    
+        'description' => 'The table that stores information about active projects',
+        'fields' => array(
+          'pid' => array(
+            'description' => 'The primary identifier for my project list',
+            'type' => 'serial',
+            'unsigned' => TRUE,
+            'not null' => TRUE,
+            ),
+   
+        'name' => array(
+            'description' => 'A field that stores the names of app developers',
+            'type' => 'varchar',
+            'length' => 50,
+            'not null' => TRUE,
+            'default' => '',
+        ),
+        'email' => array(
+            'description' => 'A field that stores email addresses of app developers',
+            'type' => 'varchar',
+            'length' => 100,
+            'not null' => TRUE,
+            'default' => '',
+        ),
+	  
+	'project_info' => array(
+            'description' => 'A field that stores descriptions of projects',
+            'type' => 'text',
+            'not null' => TRUE,
+         ),
+    ),
+    
+    'primary key' => array('pid'),
+  );
+  return $schema;
+}

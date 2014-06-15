@@ -1,0 +1,211 @@
+/* @file HTML elements CSS */
+
+/* TYPE */
+h1	{
+font-family: Museo 700;
+}
+
+h2, h3, h4, #nav {
+font-family: Museo 500;
+font-weight:normal;
+}
+	
+h1{
+font-size:36px;
+color:#327ba8;
+line-height:36px;
+}
+	
+h2{
+font-size:26px;
+color:#338fca;
+line-height:30px;
+}
+
+h3{
+font-size:24px;
+color:#999;
+line-height:24px;
+}
+
+p, body {
+font-size:13px;
+color:#333;
+line-height:24px; 
+font-family: Droid Sans;
+}
+
+h4{
+font-size:20px;
+color:#EEE;
+}
+
+/* LINKS */
+a, a:hover  {
+text-decoration:none;
+}
+
+a {
+color: #338fca;
+}
+
+a:hover {
+color: #327ba8;
+}
+
+/* NAV */
+#nav {
+font-size:18px; 
+text-transform:lowercase;}
+
+#nav h2 {
+display:none;}
+
+#nav a {
+color: #EEE;}
+
+#nav a:hover {
+color: #FFF;}
+
+/* CONTACT CALL TO ACTION BUTTON */
+#welcome-container .content a, 
+#welcome-container .content a:hover { 
+border:none;
+color:#FFF;
+font-weight:bold;
+font-size:20px;
+font-family: 'Droid Sans'; 
+text-transform:uppercase; 
+text-shadow: 0 1px 0 #222; 
+padding: 16px 54px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+}
+
+/* CSS3 GRADIENTS */
+#welcome-container .content a {
+background: #338fca;
+background-image: -moz-linear-gradient(top, #338fca, #327ba8);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#338fca), to(#327ba8));
+background-image: -o-linear-gradient(top, #338fca, #327ba8);
+background-image: linear-gradient(top, #338fca, #327ba8);}
+ 
+#welcome-container .content a:hover {
+background: #327ba8; border:none; 
+background-image: -moz-linear-gradient(top, #327ba8, #338fca);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#327ba8), to(#338fca));
+background-image: -o-linear-gradient(top, #327ba8, #338fca);
+background-image: linear-gradient(top, #327ba8, #338fca);
+}
+
+/* COLUMNS */
+#columns p { 
+width:260px; 
+}
+	
+#columns .block img{
+float:left;  
+padding:0 20px 60px 0;
+}
+
+/* BUTTONS */
+
+/* GENERAL BUTTON STYLES */    
+#columns .block a, 
+#columns .block a:hover, 
+.col a, 
+.col a:hover,
+.node-readmore a, 
+.node-readmore a:hover,
+#user-login-form .form-submit, 
+#user-login-form .form-submit:hover, 
+.contact-form .form-submit, 
+.contact-form .form-submit:hover  {
+color:#FFF;
+font:11px Arial, Helvetica, sans-serif;
+moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+padding:8px 12px;
+border:none;
+}
+
+/* BUTTON BG */    
+#columns .content a,
+.col a, 
+.node-readmore a, 
+#user-login-form .form-submit, 
+.contact-form .form-submit  {
+background: #338fca; 
+}
+
+/* BUTTON HOVER */    
+#columns .content a:hover, 
+.col a:hover, 
+.node-readmore a:hover, 
+#user-login-form .form-submit:hover, 
+.contact-form .form-submit:hover {
+background: #327ba8;
+}
+
+/* SEARCH FORM  */
+#block-search-form .form-text {
+background:#FFF; 
+border:none;
+padding-left: 10px;
+width:280px; 
+height:30px;
+}
+	
+#block-search-form .form-submit {
+background: #FFF url(../images/general/search-btn.png) no-repeat 0 0;
+margin-left:-30px; 
+text-indent: -999px;
+border: none;
+height:16px; 
+width:16px;
+}
+
+/* FOOTER */
+#footer a, #footer ul li, #footer p {
+font-size:11px;
+color:#CCC; 
+padding:0; 
+}
+	 
+#footer a:hover {
+color: #FFF;
+}
+	
+#footer ul li, #footer img {
+float:left; 
+margin-right:6px;
+list-style:none;
+}
+	
+#footer .menu {
+padding:0;
+}
+#footer .block h2 {
+display:none;
+}
+
+/* LOGIN FORM */
+#user-login-form input {
+background:#FFF; 
+border:none; 
+color:#666; 
+padding:5px; 
+}
+
+/* CONTACT FORM */
+.contact-form input {
+background:#f7f7f7; 
+border: 1px solid #CCC; 
+color:#555; 
+padding:5px 0 5px 10px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+}

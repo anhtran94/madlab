@@ -1,0 +1,154 @@
+/* @file layout CSS */
+ 
+/* GENERAL  */
+body {
+background:#EEE;
+min-width:1024px;
+}
+
+/* HEADER */
+#header {
+background:#327ba8;
+height:100px;
+border-bottom:1px solid #295f94;
+}
+
+#header-container {
+margin:0 auto;
+width:940px;
+}
+
+/* LOGO */
+#logo {
+float:left;
+margin-top:30px;
+}
+
+/* NAV */
+#nav {
+float:right;
+margin-top:40px;
+}
+
+/* SLIDER */
+#featured {
+background:#338fca;
+width:100%;
+padding:40px 0;
+border-top:1px solid #58a3d4;
+}
+
+#featured-container {
+margin:0 auto;
+width:940px;
+}
+
+#featured-container h2,#featured-container span {
+display:none;
+}
+
+/* WELCOME */
+#welcome {
+width:100%;
+background:#FFF;
+height:100px;
+border-bottom:1px solid #CCC;
+}
+
+#welcome-container {
+margin:0 auto;
+width:940px;
+}
+
+#welcome-container h1 {
+float:left;
+margin-top:32px;
+}
+
+#welcome-container .content {
+float:right;
+margin-top:25px;
+}
+
+/* LAYOUT */
+#container {
+margin:0 auto;
+width:940px;
+padding-bottom:40px;
+min-height:450px;
+}
+
+#columns {
+margin:0 auto;
+width:960px;
+padding:40px 0;
+}
+
+#columns .block {
+float:left;
+display:inline;
+margin:40px 10px 0;
+width:300px;
+}
+
+/* CONTENT */
+#content {
+float:left;
+width:540px;
+margin:0;
+padding:40px;
+background:#FFF;
+border:1px solid #CCC;
+}
+
+#content p {
+width:540px;
+}
+
+.node {
+margin-bottom:40px;
+}
+
+#content ul.inline li {
+padding:0;
+}
+
+.col {
+float:left;
+display:inline;
+margin:0 10px;
+width:300px;
+}
+
+/* SIDEBAR */
+#sidebar {
+float:right;
+margin-right:0;
+width:300px;
+min-height:500px;
+}
+
+#sidebar .block {
+margin-bottom:40px;
+}
+
+/* FOOTER */
+#footer {
+background:#999;
+min-height:100px;
+clear:both;
+border-top:1px solid #FFF;
+}
+
+#footer-container {
+margin:0 auto;
+width:960px;
+padding:30px 0;
+}
+
+#footer .block {
+float:left;
+display:inline;
+margin:0 10px;
+width:300px;
+}
